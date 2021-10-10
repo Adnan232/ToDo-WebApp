@@ -1,0 +1,185 @@
+{% extends 'base.html' %}
+{% block title %}About Us{% endblock title %}
+{% block body%}
+<style>
+    .center {
+        display: block;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .centericon {
+        display: block;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100px;
+        width: 35%;
+    }
+</style>
+
+<div class="cointainer mx-5 my-5">
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                    aria-controls="panelsStayOpen-collapseOne">
+                    Creators
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+
+
+                    <div class="center card mb-3" style="max-width: 850px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="static/vaibhav.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Vaibhav Sharma</h5>
+                                    <p class="card-text">I am a computer science undergraduate and a tech enthusiast
+                                        currently working on developing and improving my skills in web development.
+                                        While developing this ToDo App, I’ve learned to interact with database and
+                                        create webpages using Django, HTML, CSS and Bootstrap.</p>
+                                    <a href="https://github.com/VaibhavSharma20" target="_blank">
+                                        <img src="static/GitHub.png" alt="..." style="width:30px;height:30px;">
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/vaibhav-2001/" target="_blank">
+                                        <img src="static/Linkedin.png" alt="..." style="width:30px;height:30px;">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="center card mb-3" style="max-width: 850px; ">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="static/adnan.png" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Adnan Habib</h5>
+                                    <p class="card-text">I am a CSE undergraduate student aspiring to become a skilled
+                                        data scientist and a software developer. I’ve made this ToDo App to explore new
+                                        skills such as database management and web development, and improve them.</p>
+                                    <a href="https://github.com/Adnan232" target="_blank">
+                                        <img src="static/GitHub.png" alt="..." style="width:30px;height:30px;">
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/adnan-habib/" target="_blank">
+                                        <img src="static/Linkedin.png" alt="..." style="width:30px;height:30px;">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseTwo">
+                    About App
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                    This ToDo Application is a basic task managing app, generally used to maintain our day-to-day tasks
+                    or list everything that we have to do, with the most important tasks at the top of the list, and the
+                    least important tasks at the bottom.
+                    It includes login features, where user can create their own individual ToDo App account and manage
+                    their tasks on their own. The user can create account using sign up page and login through sign in
+                    page.
+                    It also features a Contact us page, where the user can send any query to admin if they have with the
+                    application.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingT">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThree">
+                    Technologies Used
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+
+
+
+                    <div class="card-group">
+                        <div class="card">
+                            <img src="static/Python.png" class="center" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Python</h5>
+                                <p class="card-text">Python is an interpreted high-level general-purpose programming
+                                    language. Its design philosophy emphasizes code readability with its use of
+                                    significant indentation. Its language constructs as well as its object-oriented
+                                    approach aim to help programmers write clear, logical code for small and large-scale
+                                    projects</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="static/Bootstrap.png" class="center" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Bootstrap</h5>
+                                <p class="card-text">Bootstrap is a free and open-source CSS framework directed at
+                                    responsive, mobile-first front-end web development.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="static/Django.png" class="center" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Django</h5>
+                                <p class="card-text">Django is a python based free and open-source web framework to
+                                    deploy and integrate both in front and back end </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseFour">
+                    Database Used
+                </button>
+            </h2>
+            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                aria-labelledby="panelsStayOpen-headingFour">
+                <div class="accordion-body">
+                    <div class="center">
+                        <div class="card">
+                            <img src="static/Postgre.png" class="center" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">PostgreSQL</h5>
+                                <p class="card-text">PostgreSQL is a powerful, open source object-relational database
+                                    system that uses and extends the SQL language combined with many features that
+                                    safely store and scale the most complicated data workloads. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock body %}
